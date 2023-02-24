@@ -1,0 +1,181 @@
+/* Global Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  section {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  h1, h2, h3 {
+    font-weight: normal;
+  }
+  
+  /* .btn {
+    display: inline-block;
+    padding: 10px 20
+  } */
+
+
+  /* for all buttons */
+  /* Style for the button */
+.btn {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  /* Hover effect */
+  .button:hover {
+    background-color: #2980b9;
+  }
+
+  /*===================== */
+  /* for the book.html  */
+
+  .book-form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input, textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #428bca;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3071a9;
+  }
+  /*===================== */
+  
+
+  footer{
+    text-align: center;
+    color: solid black;
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+
+  /* Styles for mobile screens */
+@media only screen and (max-width: 767px) {
+    /* Header styles */
+    .header {
+      height: 80px;
+      padding: 10px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .logo {
+      font-size: 30px;
+    }
+    .navbar {
+      display: none;
+    }
+    .menu-toggle {
+      display: block;
+      font-size: 30px;
+      cursor: pointer;
+    }
+    /* Main content styles */
+    .main-content {
+      padding: 20px;
+    }
+    .cta-section {
+      flex-direction: column;
+      text-align: center;
+    }
+    .cta-section h2 {
+      font-size: 24px;
+    }
+    .cta-section p {
+      font-size: 16px;
+    }
+    .book-button {
+      font-size: 20px;
+      padding: 10px 20px;
+    }
+    /* Footer styles */
+    .footer {
+      flex-direction: column;
+      text-align: center;
+    }
+    .footer p {
+      font-size: 14px;
+    }
+  }
+  
